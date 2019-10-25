@@ -1,7 +1,7 @@
 #!/bin/bash
 # Block ad serving and tracking system-wide even before a request is issued to them.
 
-SOURCE='https://someonewhocares.org/hosts/zero/hosts'
+SOURCE='https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt'
 BACKUP='https://raw.github.com/MattiSG/adblock/master/hosts.default'
 TARGET='/etc/hosts'
 DOWNLOADED='/etc/hosts.blocklist'
